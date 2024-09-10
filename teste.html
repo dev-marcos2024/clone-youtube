@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  input:focus h1{
+    background-color: yellow;
+  }
+  .ocultar{
+  	background-color: red;
+  }
+  
+</style>
+</head>
+<body>
+
+<h1>Demo of the :focus selector</h1>
+
+<p>Click inside the text fields to see a yellow background:</p>
+
+<form>
+  First name: <input type="text" name="firstname" onfocus="toggleClass(this)" ><br>
+  Last name: <input id="inp" type="text" name="lastname">
+  <h1 id="h1" >Hola mundo</h1>
+</form>
+
+
+<script>
+	function toggleClass(elem) {
+    	let paragraph = document.getElementById('h1');
+    	paragraph.classList.toggle('ocultar');
+        console.log(elem)
+    }
+
+    let inputText = document.getElementById('inp');
+
+    inputText.addEventListener('click', (e)=>{
+        console.log(e.target)
+    } );
+
+    
+
+
+</script>
+
+</body>
+</html>

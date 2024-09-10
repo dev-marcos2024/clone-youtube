@@ -1,0 +1,19 @@
+/* Configuracoes geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+
+.main-container, .menu{
+    max-width: 90rem;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}

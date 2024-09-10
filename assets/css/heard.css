@@ -1,0 +1,74 @@
+/*! Estilizando o cabecario */
+header{
+    position: fixed;
+    top: 0;
+    height: 3.5rem;
+    width: 100vw;
+    background-color: #FFF;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.menu-left{
+    display: flex;
+    gap: 2rem;
+}
+.menu-left img{
+    cursor: pointer;
+}
+
+
+.menu-center{
+    display: flex;
+    justify-content: end;
+    height: 2.5rem;
+    width: 30rem;
+}
+#center-left{
+    display: flex;
+    height:100%;
+    border-radius: 1.25rem 0 0 1.25rem;
+}
+.menu-center-search{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem 0 0 1.25rem ;
+    margin-left: 1rem;
+}
+.menu-center input{
+    width: 23rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 1.25rem 0 0 1.25rem ;
+    border: 1px solid #CCC;
+    padding-left: 1rem;
+    offset: none;
+}
+.menu-center button{
+    border-radius: 0 1.25rem 1.25rem 0 ;
+    width: 4rem;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+
+
+.menu-ringth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.ringht-avatar{
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 50%;
+}
